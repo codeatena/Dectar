@@ -1,0 +1,408 @@
+/* 
+  Localize.strings
+  Dectar
+
+  Created by Aravind Natarajan on 2/11/16.
+  Copyright © 2016 CasperonTechnologies. All rights reserved.
+*/
+
+//---------------------->>>>>>>>>>>> MAIN <<<<<<<<<<<<<<<<-----------------------------
+
+"SIGN_IN"="SIGN IN";
+"REGISTER"="REGISTER";
+"LOGIN"="LOGIN";
+"Error"="Error";
+"ok"="ok";
+"EMAIL"="EMAIL";
+"PASSWORD"="PASSWORD";
+"Email_Is_mandatory"="Email Is mandatory";
+"Password_Is_mandatory"="Password Is mandatory";
+"By_Continuing_I_agree"="By Continuing, I agree to";
+"User_agreement_and_Terms_of_services"="User agreement and Terms of services";
+"Password_Mismatch"="Password Mismatch";
+"Name_is_mandatory"="Name is mandatory.";
+"Email_is_mandatory"="Email is mandatory.";
+"Country_Code_is_mandatory"="Country Code is mandatory.";
+"Mobile_Number_is_mandatory"="Mobile Number is mandatory.";
+"Please_Enter_you_password"="Please Enter you password";
+"Reenter_you_password"="Re-enter you password";
+"By_Continuing_I_agree"="By Continuing, I agree to";
+"NAME"="NAME";
+"EMAIL"="EMAIL";
+"MOBILE_NUMBER"="MOBILE NUMBER";
+"PASSWORD"="PASSWORD";
+"CONFIRM_PASSWORD"="CONFIRM PASSWORD";
+"REFERRALCODE"="REFERRALCODE";
+"CREATE_ACCOUNT"="CREATE ACCOUNT";
+
+//---------------------->>>>>>>>>>>> Menu <<<<<<<<<<<<<<<<-----------------------------
+"Book_a_Ride"="Book a Ride";
+"My_Rides"="My Rides";
+"Rate_Card"="Rate Card";
+"cabily_Money"="cabily Money";
+"invite_and_earn"="invite & earn";
+"Emergency_Contact"="Emergency Contact";
+"Report_issues"="Report issues";
+"About_us"="About us";
+//---------------------->>>>>>>>>>>> Profile <<<<<<<<<<<<<<<<-----------------------------
+
+"Profile"="Profile";
+"save"="save";
+"SIGN_IN_DETAILS"="SIGN IN DETAILS";
+"MY_DETAILS"="MY DETAILS";
+"email"="email";
+"change_Password"="change Password";
+"name"="name";
+"mobile_number"="mobile number";
+"success"="success";
+"Kindly_Enter_UserName"="Kindly Enter UserName";
+"Kindly_Enter_Mobile_Number"="Kindly Enter Mobile Number";
+"logout"="logout";
+//---------------------->>>>>>>>>>>> Change password <<<<<<<<<<<<<<<<-----------------------------
+
+"change_password"="change password";
+"old_password"="old password";
+"new_password"="new password";
+"confirm_password"="confirm password";
+"save"="save";
+"PASSWORD_MISS_MATCH"="PASSWORD MISS MATCH";
+//---------------------->>>>>>>>>>>> add favourite <<<<<<<<<<<<<<<<-----------------------------
+
+"Add_Favorite"="Add Favorite";
+"save"="save";
+"Name_of_your_favorites"="Name of your favorites";
+"Kindly_Enter_Name_of_your_favorites"="Kindly Enter Name of your favorites";
+//---------------------->>>>>>>>>>>> favourite <<<<<<<<<<<<<<<<-----------------------------
+
+"Favorites"="Favorites";
+"Edit"="Edit";
+"Done"="Done";
+"No_Favorites_added_yet"="No Favorites added yet!";
+"Select_frequent_pickup_location_and"="Select frequent pickup location and save then as favorites for instant access";
+"ADD_FAVORITES"="ADD FAVORITES";
+//---------------------->>>>>>>>>>>> Rating <<<<<<<<<<<<<<<<-----------------------------
+
+"Rating"="Rating";
+"Skip"="Skip";
+"Submit"="Submit";
+"Please_enter_your_comments_about_your_ride"="Please enter your comments about your ride";
+"please_give_the_review"="Please give the review for you ride. It may be useful for us";
+//---------------------->>>>>>>>>>>> Invite <<<<<<<<<<<<<<<<-----------------------------
+
+"Invite_Friends"="Invite Friends";
+"Start_Inviting_friends"="Start Inviting friends";
+"Let_the_world_know"="Let the world know";
+"Share_your_referral_code"="Share your referral code";
+"Friends_Rides_you_earn"="Friends Rides, you earn";
+"Friends_joins"="Friends joins, friend earns";
+"Ooops_Facebook"="Ooops Facebook!";
+"Kindly_add_your"="Kindly add your account to the device";
+"I_have_an_cabily_Coupon"="I have an cabily Coupon Code worth  with My code";
+"please_config_your_mail"="please config your mail account to your device";
+"Facebook_Messenger"="Facebook Messenger not installed.";
+"Your_device_has_no_Facebook Messenger installed."="Your device has no Facebook Messenger installed.";
+"WhatsApp_not_installed"="WhatsApp not installed.";
+"Your_device_has_no_WhatsApp"="Your device has no WhatsApp installed.";
+//---------------------->>>>>>>>>>>> Emergency Contact <<<<<<<<<<<<<<<<-----------------------------
+
+"Emergency_Contact"="Emergency Contact";
+"List_youremergency"="List your emergency contact's name , mobile number and email here.";
+"Note_Your_Contact_can"="Note: Your Contact can be alerted only after verification.";
+"Enter_name"="Enter name";
+"Enter_Mobile_Number"="Enter Mobile Number";
+"Enter_Email_id"="Enter Email id";
+"Remove_Contact"="Remove Contact";
+"Be_Relax"="Be Relax!";
+"Name_is_mandatory"="Name is mandatory.";
+"Country_is_mandatory"="Country is mandatory.";
+"Mobile_Number_is_mandatory"="Mobile Number is mandatory.";
+"Email_is_mandatory"="Email is mandatory.";
+//---------------------->>>>>>>>>>>> Money <<<<<<<<<<<<<<<<-----------------------------
+
+"Cabily_Money"="Cabily Money";
+"Cashless_hassle"="Cashless, hassle-free rides with Cabily Money";
+"Recharge_Cabily"="Recharge Cabily money";
+"Your_current"="Your current balance";
+"ADD_CABILY_MONEY"="ADD CABILY MONEY";
+"Enter_amount_between"="Enter amount between";
+"please_enter_amount"="please enter amount to add your wallet";
+"Transaction_Successful"="Transaction Successful";
+//---------------------->>>>>>>>>>>> Transcation <<<<<<<<<<<<<<<<-----------------------------
+
+"Transaction"="Transaction";
+"all"="all";
+"credit"="credit";
+"debit"="debit";
+"Balance"="Balance";
+//---------------------->>>>>>>>>>>> Myrides <<<<<<<<<<<<<<<<-----------------------------
+
+"all"="all";
+"upcoming"="upcoming";
+"complete"="complete";
+"No_Rides_Booked"="No Rides Booked!";
+"There_are_no_rides for you"="There are no rides for you";
+"BOOK_A_RIDE"="BOOK A RIDE";
+"Booked"="Booked";
+"Onride"="Onride";
+"Finished"="Finished";
+"Completed"="Completed";
+"Cancelled"="Cancelled";
+"Confirmed"="Confirmed";
+"Arrived"="Arrived";
+"All"="All";
+"Last_one_week"="Last one week";
+"Last_two_weeks"="Last two weeks";
+"Last_one_month"="Last one month";
+"Last_one_year"="Last one year";
+"from"="from";
+//---------------------->>>>>>>>>>>> Detail my Ride <<<<<<<<<<<<<<<<-----------------------------
+
+"Ride_Details"="Ride Details";
+"Payment_Mode"="Payment Mode";
+"Back"="Back";
+"Submit"="Submit";
+"Coupon_Discount"="Coupon Discount";
+"Wallet_Usage"="Wallet Usage";
+"Total_Bill"="Total Bill:";
+"Total_Paid"="Total Paid:";
+"ride_distance"="ride distance";
+"time_taken"="time taken";
+"wait_time"="wait time";
+"Mail_Invoice"="Mail Invoice";
+"Report"="Report";
+"Share_My_Ride"="Share Ride";
+"Track_Driver"="Track Driver";
+"Cancel_Trip"="Cancel Trip";
+"Payment"="Payment";
+"Pick_up"="Pick up:";
+"Drop"="Drop:";
+"Completed"="Completed";
+"Finished"="Finished";
+"Pending"="Pending";
+"Processing"="Processing";
+"Cancelled"="Cancelled";
+"cash"="cash";
+"Your_Payment_successfully_finished"="Your Payment successfully finished. Please Wait till Driver Confirmation.";
+"wallet"="wallet";
+"Your_Payment_successfully_finished"="Your Payment successfully finished";
+"Your_Wallet_amount_successfully_used"="Your Wallet amount successfully used";
+"Your_wallet_is_empty"="Your wallet is empty";
+"auto_detect"="auto_detect";
+"Your_Payment_successfully_finished"="Your Payment successfully finished";
+"Cancel_Reason"="Cancel Reason";
+"your_ride_already_cancelled"="your ride already cancelled";
+"please_config_your_mail_account"="please config your mail account to your device";
+"Mail"="Mail";
+"You_already_add_this_location"="You already add this location as favorite";
+"ENTER_YOUR_FAVORITE_ADDRESS"="ENTER YOUR FAVORITE ADDRESS TITLE";
+"Please_Enter_the_title_for_your_favorite"="Please Enter the title for your favorite address";
+"Please_Enter_Valid_Email"="Please Enter Valid Email Address !";
+"ENTER_YOUR_EMAIL_ID"="ENTER YOUR E-MAIL ID";
+"Done"="Done";
+"CANCEL"="CANCEL";
+"SEND"= "SEND";
+"ENTER_MOBILE_NUMBER"="ENTER MOBILE NUMBER";
+"Please_Enter_Mobile_Number"="Please Enter Mobile Number!";
+"Coupon_Discount"="Coupon Discount";
+"Wallet_Usage"="Wallet Usage";
+"Tips_Amount"="Tips Amount:";
+"pick_up"="Pick_up:";
+"Coupon"="Coupon";
+"Apply"="Apply";
+"Your_Allowance"="Your Balance";
+
+
+//---------------------->>>>>>>>>>>> coupon <<<<<<<<<<<<<<<<-----------------------------
+
+"Coupon"="Coupon";
+"Apply"="Apply";
+"Your_Allowance"="Your Allowance";
+"Your_Coupon_Successfully_Removed"="Your Coupon Successfully Removed";
+"You_have_successfully_applied_coupon"="You have successfully applied coupon code and %@ will be reduce from your total amount";
+"Remove"="Remove";
+//---------------------->>>>>>>>>>>> new Track <<<<<<<<<<<<<<<<-----------------------------
+"your_ride_already_cancelled"="your ride already cancelled";
+"Cancel_Ride"="Cancel Ride";
+"Tell_us_Why"="Tell us Why?";
+"paymetn_pay"="Choose payment";
+ "Submit"="Submit";
+"Back"="Back";
+"CALL_DRIVER"="CALL DRIVER";
+"Track_Driver"="Track Driver";
+"Onride"= "Onride";
+"Enjoy_Your_Ride"="Enjoy Your Ride";
+"Arrived"= "Arrived";
+"Cab_Arrived"="Cab Arrived";
+"Finished"= "Finished";
+"Ride_Completed"= "Ride Completed";
+"Cancel"= "Cancel";
+"Contact"= "Contact";
+"Fare_breakup"="Fare breakup";
+"Payment Mode"="Payment Mode";
+"Back"="Back";
+"Submit"="Submit";
+"PAYMENT"="PAYMENT";
+"Total_Amount"="Total Amount :";
+"Duration"="Duration :";
+"Waiting"="Waiting :";
+"Time_Travel"="Time Travel :";
+"Your_Tips_Amount"="Your Tips Amount";
+"Your_Payment_successfully finished"="Your Payment successfully finished";
+"Your_wallet_is_empty"="Your wallet is empty";
+"Your_wallet_amount_Successfull"="Your wallet amount Successfully used";
+"Your_Payment_successfully_finished"="Your Payment successfully finished";
+"Your_Payment_Driver_Confirmation"="Your payment was successful. Please wait for a confirmation from the driver";
+//---------------------->>>>>>>>>>>> Webview <<<<<<<<<<<<<<<<-----------------------------
+
+"Transaction_View"="Transaction View";
+"Warning"="Warning !";
+"If_you_Close_the"="If you Close the view your transaction will be cancelled";
+"CANCEL"="CANCEL";
+"Some_Network_problem"="Some Network problem try again later";
+//---------------------->>>>>>>>>>>> Book A ride <<<<<<<<<<<<<<<<-----------------------------
+
+"Getting_Address"="Getting Address..";
+"Apply_Coupon"="Apply Coupon";
+"App_Permission_Denied"="App Permission Denied";
+"To_reenable_please"="To re-enable, please go to Settings and turn on Location Service for this app.";
+"Sorry_we_couldnt_fetch"="Sorry we couldn't fetch your address";
+"kindly_Search_valid_Address"="kindly Search valid Address";
+"Sorry_We_city"="Sorry, We are not providing service to your city.";
+"MINI"="MINI";
+"Cabily_Mini"="Cabily Mini";
+"Cabily_Sedan"="Cabily Sedan";
+"Seedan"="Seedan";
+"We_could_not_request"="We could not accept your request";
+"No_cabs_another_time"="No cabs has been available at your place, kindly try another time";
+"Your_wallet_money"="Your wallet money :";
+"from_now"="from now";
+"Your_book_successfully_registerd"="Your booking has been successfully registered, our driver will contact you before";
+"No_Driver_Available_RETRY"="No Driver Available  If you want to search once again press RETRY for cancel booking press CANCEL";
+"APPOX_TRAVEL_TIME"="APPOX TRAVEL TIME:";
+"ENTER_APPLY_COUPON_CODE"="ENTER APPLY COUPON CODE";
+"CANCEL"="CANCEL";
+"APPLY"="APPLY";
+"Booking_Request_Cancelled"="Booking Request Cancelled";
+"Category"="Category";
+"Vehicle_Types"="Vehicle Types";
+"Fare_Breakup"="Fare Breakup";
+"We_are_searching_be_relax"="We are searching for a driver, please wait";
+"CONFIRM"="CONFIRM";
+"RIDE_LATER"="RIDE LATER";
+"RIDE_NOW"="RIDE NOW";
+"Pick_up_time"="Pick up time";
+"Cab_type"="Cab type";
+"Rate_card"="Rate card";
+"Estimation"="Estimation";
+"Pickup"="Pickup";
+"Drop"="Drop";
+"Ride_Estimation"="Ride Estimation";
+"Pickup_location"="Pick Up Location";
+"Drop_location"="Drop off location";
+"Confirmation"="Confirmation";
+"CANCEL"="CANCEL";
+"We_are_fetching_your"="We are fetching your address! Kindly Wait !!";
+"Can't_fetch_Address"="Can't fetch Address";
+//---------------------->>>>>>>>>>>> Alert extra <<<<<<<<<<<<<<<<-----------------------------
+
+"Network_error"="Network error";
+"Oops"="Oops";
+"Error in connection"="Error in connection";
+"No_internet_connection_found"="No internet connection found, this application requires an internet connection to gather the data required.";
+"Internet_connection found_this"="Internet connection found, this application requires an internet connection to gather the data required.";
+"Thank_you"="Thank you!";
+"success"="success";
+"your_billing_amount"="your billing amount paid successfully";
+"Your_Ride_Completed"="Your Ride Completed";
+"your_Cab_has_been"="your Cab has been arrived to your place";
+"Sorry_your_ride_has"="Sorry your ride has been cancelled by driver";
+"Network_Busy_later"="Network Busy! Please try again later";
+//---------------------->>>>>>>>>>>> OTP <<<<<<<<<<<<<<<<-----------------------------
+
+"Verification"="Verification";
+"Kindly_Enter your OTP"="Kindly Enter your OTP";
+"Enter_Your OTP"="Enter Your OTP";
+"Verify"="Verify";
+"Please_Enter_Valid_OTP"="Please Enter Valid OTP";
+"Verification_Complete"="Verification Complete";
+//---------------------->>>>>>>>>>>> ForgetPassword <<<<<<<<<<<<<<<<-----------------------------
+
+"Forget_password"="Forget password ?";
+"E_mail_me"="E-mail me";
+"E_Mail_Me"="E-Mail Me";
+
+
+//---------------------->>>>>>>>>>>> Reset <<<<<<<<<<<<<<<<-----------------------------
+
+"Email_is_mandatory"="Email is mandatory.";
+"Password_is_mandatory"="Password is mandatory.";
+"Please_Enter_Valid_Email"="Please Enter Valid Email Address !";
+"Enter_EMail_ID"="Enter E-Mail ID";
+"New_Password"="New Password";
+"Show_Password"="Show Password";
+"Reset_Password"="Reset Password";
+//---------------------->>>>>>>>>>>> extra login & register <<<<<<<<<<<<<<<<-----------------------------
+
+"SignUp_Here"="SignUp Here";
+"Not_a_membet_yet"="Not a membet yet ?";
+"Please_Enter_Valid_Email_Address"="Please Enter Valid Email Address";
+"Already_a_member"="Already a member ?";
+"sign_in_here"="sign in here";
+"Kindly_Enter_Address"="Kindly Enter Address";
+"You_rated"="You already rated this driver";
+"thanks"="Thanks..";
+//---------------------->>>>>>>>>>>> Coupon <<<<<<<<<<<<<<<<-----------------------------
+
+"I_have_an"="I have an";
+"Coupon_Code_worth"="Coupon Code worth";
+"with_My_code"="with My code";
+"You_have_successfully"="You have successfully applied coupon code and";
+"You_have_successfully_Flat"="You have successfully applied coupon code andFlat";
+"will_be_reduce"="will be reduce from your total amount";
+"Your_Coupon_Successfully_Removed"="Your Coupon Successfully Removed";
+"Coupon"="Coupon";
+//---------------------->>>>>>>>>>>> WebView <<<<<<<<<<<<<<<<-----------------------------
+
+
+"Your_Payment_failed"="Your Payment failed";
+"Amount_added"="Amount added to you Wallet Successfully";
+"Your_Payment_cancelled"="Your Payment has been cancelled";
+//---------------------->>>>>>>>>>>> New fare <<<<<<<<<<<<<<<<-----------------------------
+
+"GoBack"="GoBack";
+"base_fare"="Base fare";
+"total"="Total";
+"service_tax"="Service Tax";
+"sub_total"="Subtotal";
+"Tips_Amount"="Tip Amount";
+"want_tips"="Do you want to tip a driver ?";
+"tip"="Tip";
+"minus"="Minus";
+"make_a_payment"="Make A Payment";
+//---------------------->>>>>>>>>>>> Retry New fare <<<<<<<<<<<<<<<<-----------------------------
+
+"processing"="We are processing your payment.";
+"Retry"="Retry";
+"Please_wait"="Please wait.....";
+//---------------------->>>>>>>>>>>> no internet toast <<<<<<<<<<<<<<<<-----------------------------
+
+"No_Network_Connection"="No Network Connection";
+
+//---------------------->>>>>>>>>>>> DropVC <<<<<<<<<<<<<<<<-----------------------------
+
+"Drop_Address"="Drop Address";
+"Done"="Done";
+"Search_Drop_Location"="Search Drop Location";
+"long_press_on_the"="Press and hold on the map to select your drop off location";
+"kindly_Search_vaild Address"="kindly Search vaild Address";
+"App_Permission_Denied"="App Permission Denied";
+"To_re-enable_please"="To re-enable, please go to Settings and turn on Location Service for this app.";
+
+
+//---------------------->>>>>>>>>>>> HelpVC <<<<<<<<<<<<<<<<-----------------------------
+
+"Call_Police"="Call Police";
+"Call_Ambulance"="Call Ambulance";
+"Call_Fire_Station"="Call Fire Station";
+"Emergency_Contact"="Emergency Contact";
+"English"="English";
