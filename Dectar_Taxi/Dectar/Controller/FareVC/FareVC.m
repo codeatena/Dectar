@@ -715,7 +715,7 @@
         UIToolbar* keyboardDoneButtonView = [[UIToolbar alloc] init];
         [keyboardDoneButtonView sizeToFit];
         UIBarButtonItem* doneButton = [[UIBarButtonItem alloc] initWithTitle:@"Done"
-                                                                       style:UIBarButtonItemStyleBordered target:self
+                                                                       style:UIBarButtonItemStylePlain target:self
                                                                       action:@selector(doneClicked:)];
         [keyboardDoneButtonView setItems:[NSArray arrayWithObjects:doneButton, nil]];
         Amount_fld.inputAccessoryView = keyboardDoneButtonView;

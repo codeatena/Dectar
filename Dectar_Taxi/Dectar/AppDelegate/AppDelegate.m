@@ -130,13 +130,6 @@
         
         [application registerForRemoteNotifications];
     }
-    else
-    {
-        // iOS < 8 Notifications
-        
-        [application registerForRemoteNotificationTypes:
-         (UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeSound)];
-    }
     
     [[BITHockeyManager sharedHockeyManager] configureWithIdentifier:@"4f4f1ef66ab34a77ae92b69d747b601c"];
     // Do some additional configuration if needed here
@@ -1085,7 +1078,7 @@
     {
         isXMPPDisConnected = [xmppStream isDisconnected];
         
-        NSLog(@"%hhd",isXMPPDisConnected);
+        NSLog(@"%d",isXMPPDisConnected);
     }
     
     

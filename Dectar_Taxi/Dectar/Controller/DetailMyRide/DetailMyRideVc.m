@@ -1194,7 +1194,8 @@
                  TrackObj.DriverImage=[[[responseDictionary valueForKey:@"response"]valueForKey:@"driver_profile"] valueForKey:@"driver_image"];;
                  TrackObj.Status=[[[responseDictionary valueForKey:@"response"]valueForKey:@"driver_profile"]valueForKey:@"ride_status"];
                  NSDictionary * Drop=[[[responseDictionary valueForKey:@"response"]valueForKey:@"driver_profile"]valueForKey:@"drop"];
-                 if (![Drop count]<=0) {
+//                 if (![Drop count]<=0) {
+                 if (!([Drop count]<=0)) {
                      TrackObj.Drop_latitude_User=[[[Drop valueForKey:@"latlong"]valueForKey:@"lat"] doubleValue];
                      TrackObj.Drop_longitude_User=[[[Drop valueForKey:@"latlong"]valueForKey:@"lon"] doubleValue];
 
@@ -1605,7 +1606,7 @@
         UIToolbar* keyboardDoneButtonView = [[UIToolbar alloc] init];
         [keyboardDoneButtonView sizeToFit];
         UIBarButtonItem* doneButton = [[UIBarButtonItem alloc] initWithTitle:@"Done"
-                                                                       style:UIBarButtonItemStyleBordered target:self
+                                                                       style:UIBarButtonItemStylePlain target:self
                                                                       action:@selector(doneClicked:)];
         [keyboardDoneButtonView setItems:[NSArray arrayWithObjects:doneButton, nil]];
         Amount_txtFld.inputAccessoryView = keyboardDoneButtonView;
@@ -1614,7 +1615,7 @@
         UIToolbar* keyboardDoneButtonView = [[UIToolbar alloc] init];
         [keyboardDoneButtonView sizeToFit];
         UIBarButtonItem* doneButton = [[UIBarButtonItem alloc] initWithTitle:@"Done"
-                                                                       style:UIBarButtonItemStyleBordered target:self
+                                                                       style:UIBarButtonItemStylePlain target:self
                                                                       action:@selector(doneClickedAction:)];
         [keyboardDoneButtonView setItems:[NSArray arrayWithObjects:doneButton, nil]];
         ShareFld.inputAccessoryView = keyboardDoneButtonView;

@@ -575,7 +575,7 @@ const static CGFloat kCustomIOS7MotionEffectExtent = 10.0;
         UIToolbar* keyboardDoneButtonView = [[UIToolbar alloc] init];
         [keyboardDoneButtonView sizeToFit];
         UIBarButtonItem* doneButton = [[UIBarButtonItem alloc] initWithTitle:@"Done"
-                                                                       style:UIBarButtonItemStyleBordered target:self
+                                                                       style:UIBarButtonItemStylePlain target:self
                                                                       action:@selector(doneClicked:)];
         [keyboardDoneButtonView setItems:[NSArray arrayWithObjects:doneButton, nil]];
         _amount_fld.inputAccessoryView = keyboardDoneButtonView;

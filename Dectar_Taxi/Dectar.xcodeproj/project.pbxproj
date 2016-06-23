@@ -69,7 +69,6 @@
 		2E4186CC1B8DDA8600673ECF /* MyRideRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4186CB1B8DDA8600673ECF /* MyRideRecord.m */; };
 		2E4186D01B8DFC6A00673ECF /* DetailMyRideVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4186CF1B8DFC6A00673ECF /* DetailMyRideVc.m */; };
 		2E4479B61C5369100093C32B /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4479B51C5369100093C32B /* XMLReader.m */; };
-		2E447B331C5369230093C32B /* README.markdown in Sources */ = {isa = PBXBuildFile; fileRef = 2E4479B91C5369230093C32B /* README.markdown */; };
 		2E447B341C5369230093C32B /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4479BE1C5369230093C32B /* GCDAsyncSocket.m */; };
 		2E447B351C5369230093C32B /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4479C01C5369230093C32B /* GCDAsyncUdpSocket.m */; };
 		2E447B361C5369230093C32B /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4479C31C5369230093C32B /* AsyncSocket.m */; };
@@ -85,7 +84,6 @@
 		2E447B401C5369230093C32B /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4479DB1C5369230093C32B /* DDDispatchQueueLogFormatter.m */; };
 		2E447B411C5369230093C32B /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4479DD1C5369230093C32B /* DDMultiFormatter.m */; };
 		2E447B421C5369230093C32B /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2E4479DE1C5369230093C32B /* README.txt */; };
-		2E447B431C5369230093C32B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2E4479DF1C5369230093C32B /* README.md */; };
 		2E447B441C5369230093C32B /* XMPPAnonymousAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4479E41C5369230093C32B /* XMPPAnonymousAuthentication.m */; };
 		2E447B451C5369230093C32B /* XMPPDeprecatedDigestAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4479E71C5369230093C32B /* XMPPDeprecatedDigestAuthentication.m */; };
 		2E447B461C5369230093C32B /* XMPPDeprecatedPlainAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4479EA1C5369230093C32B /* XMPPDeprecatedPlainAuthentication.m */; };
@@ -201,7 +199,6 @@
 		2E447BB41C5369230093C32B /* XMPPMessage+XEP_0308.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E447B071C5369230093C32B /* XMPPMessage+XEP_0308.m */; };
 		2E447BB51C5369230093C32B /* XMPPMessage+XEP_0333.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E447B0A1C5369230093C32B /* XMPPMessage+XEP_0333.m */; };
 		2E447BB61C5369230093C32B /* NSXMLElement+XEP_0335.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E447B0D1C5369230093C32B /* NSXMLElement+XEP_0335.m */; };
-		2E447BB71C5369230093C32B /* README.markdown in Sources */ = {isa = PBXBuildFile; fileRef = 2E447B101C5369230093C32B /* README.markdown */; };
 		2E447BB81C5369230093C32B /* DDList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E447B131C5369230093C32B /* DDList.m */; };
 		2E447BB91C5369230093C32B /* GCDMulticastDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E447B151C5369230093C32B /* GCDMulticastDelegate.m */; };
 		2E447BBA1C5369230093C32B /* RFImageToDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E447B171C5369230093C32B /* RFImageToDataTransformer.m */; };
@@ -505,7 +502,6 @@
 		2E4186CF1B8DFC6A00673ECF /* DetailMyRideVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailMyRideVc.m; sourceTree = "<group>"; };
 		2E4479B41C5369100093C32B /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
 		2E4479B51C5369100093C32B /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
-		2E4479B91C5369230093C32B /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
 		2E4479BB1C5369230093C32B /* CocoaAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaAsyncSocket.h; sourceTree = "<group>"; };
 		2E4479BD1C5369230093C32B /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
 		2E4479BE1C5369230093C32B /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
@@ -537,7 +533,6 @@
 		2E4479DC1C5369230093C32B /* DDMultiFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMultiFormatter.h; sourceTree = "<group>"; };
 		2E4479DD1C5369230093C32B /* DDMultiFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMultiFormatter.m; sourceTree = "<group>"; };
 		2E4479DE1C5369230093C32B /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
-		2E4479DF1C5369230093C32B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2E4479E31C5369230093C32B /* XMPPAnonymousAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPAnonymousAuthentication.h; sourceTree = "<group>"; };
 		2E4479E41C5369230093C32B /* XMPPAnonymousAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPAnonymousAuthentication.m; sourceTree = "<group>"; };
 		2E4479E61C5369230093C32B /* XMPPDeprecatedDigestAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPDeprecatedDigestAuthentication.h; sourceTree = "<group>"; };
@@ -776,7 +771,6 @@
 		2E447B0C1C5369230093C32B /* NSXMLElement+XEP_0335.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSXMLElement+XEP_0335.h"; sourceTree = "<group>"; };
 		2E447B0D1C5369230093C32B /* NSXMLElement+XEP_0335.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSXMLElement+XEP_0335.m"; sourceTree = "<group>"; };
 		2E447B0F1C5369230093C32B /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		2E447B101C5369230093C32B /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
 		2E447B121C5369230093C32B /* DDList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDList.h; sourceTree = "<group>"; };
 		2E447B131C5369230093C32B /* DDList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDList.m; sourceTree = "<group>"; };
 		2E447B141C5369230093C32B /* GCDMulticastDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDMulticastDelegate.h; sourceTree = "<group>"; };
@@ -1197,6 +1191,33 @@
 			name = BookLaterVC;
 			sourceTree = "<group>";
 		};
+		0489E67E1D1C78A8003B7BF6 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				04B72D4A1D18F9E000DE58AD /* exotic_car.png */,
+				2E339C3C1C72EC56007F6416 /* driverSample.png */,
+				2E4A01851C6AFF2000C88F1C /* panic.png */,
+				2E3B16591C3E50B5009D821B /* cabImage.png */,
+				DDDE32E81BBC0F0D000C8950 /* close.png */,
+				DDDE32E91BBC0F0E000C8950 /* close@2x.png */,
+				2EBD36F61BB01B660014FC63 /* Offline.png */,
+				2E8698C81B9DC6F2001E9AFC /* carimage.png */,
+				2E13B5EC1B99CE3900B89897 /* Taxi.png */,
+				2E13B5EA1B99CD9000B89897 /* carmap.png */,
+				2EA8E8631B8AD4BB0024D163 /* bill.png */,
+				2E974D3B1B8753F3003C607E /* heat.png */,
+				2E974D391B874FA6003C607E /* cross.png */,
+				2EA8E8691B8ADA060024D163 /* beat.png */,
+				2E974D371B874F13003C607E /* add.png */,
+				2E974D2F1B874A83003C607E /* fav.png */,
+				2E84259E1B8361700041A13B /* car.png */,
+				2EB446171B7DFBBA00417B31 /* pin1.png */,
+				2E830CAD1B81EFF1003C633D /* geolocation.png */,
+				2EBD36F01BAFF1360014FC63 /* NoInternet.wav */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
 		04930E201D1300AA0023536D /* xib */ = {
 			isa = PBXGroup;
 			children = (
@@ -1508,7 +1529,6 @@
 		2E4479B81C5369230093C32B /* CocoaAsyncSocket */ = {
 			isa = PBXGroup;
 			children = (
-				2E4479B91C5369230093C32B /* README.markdown */,
 				2E4479BA1C5369230093C32B /* Source */,
 			);
 			path = CocoaAsyncSocket;
@@ -1551,7 +1571,6 @@
 			children = (
 				2E4479C71C5369230093C32B /* LICENSE.txt */,
 				2E4479C81C5369230093C32B /* Lumberjack */,
-				2E4479DF1C5369230093C32B /* README.md */,
 			);
 			path = CocoaLumberjack;
 			sourceTree = "<group>";
@@ -1601,7 +1620,6 @@
 				2E447A041C5369230093C32B /* Core */,
 				2E447A1A1C5369230093C32B /* Extensions */,
 				2E447B0E1C5369230093C32B /* module */,
-				2E447B101C5369230093C32B /* README.markdown */,
 				2E447B111C5369230093C32B /* Utilities */,
 				2E447B201C5369230093C32B /* Vendor */,
 				2E447B321C5369230093C32B /* XMPPFramework.h */,
@@ -3040,26 +3058,7 @@
 		51F0F9741B4CF2BB00A9E151 = {
 			isa = PBXGroup;
 			children = (
-				04B72D4A1D18F9E000DE58AD /* exotic_car.png */,
-				2E339C3C1C72EC56007F6416 /* driverSample.png */,
-				2E4A01851C6AFF2000C88F1C /* panic.png */,
-				2E3B16591C3E50B5009D821B /* cabImage.png */,
-				DDDE32E81BBC0F0D000C8950 /* close.png */,
-				DDDE32E91BBC0F0E000C8950 /* close@2x.png */,
-				2EBD36F61BB01B660014FC63 /* Offline.png */,
-				2E8698C81B9DC6F2001E9AFC /* carimage.png */,
-				2E13B5EC1B99CE3900B89897 /* Taxi.png */,
-				2E13B5EA1B99CD9000B89897 /* carmap.png */,
-				2EA8E8631B8AD4BB0024D163 /* bill.png */,
-				2E974D3B1B8753F3003C607E /* heat.png */,
-				2E974D391B874FA6003C607E /* cross.png */,
-				2EA8E8691B8ADA060024D163 /* beat.png */,
-				2E974D371B874F13003C607E /* add.png */,
-				2E974D2F1B874A83003C607E /* fav.png */,
-				2E84259E1B8361700041A13B /* car.png */,
-				2EB446171B7DFBBA00417B31 /* pin1.png */,
-				2E830CAD1B81EFF1003C633D /* geolocation.png */,
-				2EBD36F01BAFF1360014FC63 /* NoInternet.wav */,
+				0489E67E1D1C78A8003B7BF6 /* image */,
 				2EB445F61B7DF2D200417B31 /* FrameWorks */,
 				51F0F97F1B4CF2BB00A9E151 /* Dectar */,
 				51F0F9991B4CF2BB00A9E151 /* DectarTests */,
@@ -3563,7 +3562,6 @@
 				2EA398A71C33F21500008E51 /* NewTrackVC.m in Sources */,
 				2E9C81351BA9769000721F4B /* FTWCache.m in Sources */,
 				2EA617C41B8EDFFC0040E852 /* DGActivityIndicatorThreeDotsAnimation.m in Sources */,
-				2E447BB71C5369230093C32B /* README.markdown in Sources */,
 				0481E0531D14913300AE7C1E /* JTImageButton.m in Sources */,
 				2E447B361C5369230093C32B /* AsyncSocket.m in Sources */,
 				2E2EA4511C314A03009710EC /* PaymentVC.m in Sources */,
@@ -3649,7 +3647,6 @@
 				2E974D2E1B874A02003C607E /* FavorVC.m in Sources */,
 				2E447B6C1C5369230093C32B /* XMPPLastActivity.m in Sources */,
 				2E447B471C5369230093C32B /* XMPPDigestMD5Authentication.m in Sources */,
-				2E447B431C5369230093C32B /* README.md in Sources */,
 				2E447B7E1C5369230093C32B /* XMPPvCardCoreDataStorage.m in Sources */,
 				2E447BB61C5369230093C32B /* NSXMLElement+XEP_0335.m in Sources */,
 				2EA097CE1B9736960033988B /* FareVC.m in Sources */,
@@ -3692,7 +3689,6 @@
 				2E447BC21C5369230093C32B /* DDXMLNode.m in Sources */,
 				2E447B591C5369230093C32B /* XMPPBandwidthMonitor.m in Sources */,
 				2E447B341C5369230093C32B /* GCDAsyncSocket.m in Sources */,
-				2E447B331C5369230093C32B /* README.markdown in Sources */,
 				2E447B9C1C5369230093C32B /* XMPPMessageArchiving_Contact_CoreDataObject.m in Sources */,
 				2E447B5B1C5369230093C32B /* XMPPGoogleSharedStatus.m in Sources */,
 				2E3776861C352EDF00D25752 /* BLMultiColorLoader.m in Sources */,
@@ -3999,9 +3995,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Dectar",
-					"$(PROJECT_DIR)/Dectar/Utilities/HockeySDK.embeddedframework",
-					"$(PROJECT_DIR)/Dectar/Utilities/HockeySDKCrashOnly",
-					"$(PROJECT_DIR)/Dectar/Utilities/HockeySDKCrashOnlyExtension",
 					"$(PROJECT_DIR)/Dectar/Utilities",
 				);
 				GCC_NO_COMMON_BLOCKS = NO;
@@ -4041,9 +4034,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Dectar",
-					"$(PROJECT_DIR)/Dectar/Utilities/HockeySDK.embeddedframework",
-					"$(PROJECT_DIR)/Dectar/Utilities/HockeySDKCrashOnly",
-					"$(PROJECT_DIR)/Dectar/Utilities/HockeySDKCrashOnlyExtension",
 					"$(PROJECT_DIR)/Dectar/Utilities",
 				);
 				GCC_NO_COMMON_BLOCKS = NO;

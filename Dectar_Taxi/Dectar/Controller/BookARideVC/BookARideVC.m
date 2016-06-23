@@ -1155,7 +1155,6 @@
              responseDictionary=[Themes writableValue:responseDictionary];
              
              NSString * comfiramtion=[Themes checkNullValue:[responseDictionary valueForKey:@"status"]];
-             NSString * alert=[Themes checkNullValue:[responseDictionary valueForKey:@"message"]];
              [Themes StopView:self.view];
              if ([comfiramtion isEqualToString:@"1"])
              {

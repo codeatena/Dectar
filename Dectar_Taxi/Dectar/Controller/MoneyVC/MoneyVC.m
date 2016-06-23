@@ -116,7 +116,7 @@
 -(void)applicationLanguageChangeNotification:(NSNotification *)notification
 {
     NSString * money =JJLocalizedString(@"Money", nil);
-    NSString * Recharge=JJLocalizedString(@"Recharge_Cabily", nil);
+    //NSString * Recharge=JJLocalizedString(@"Recharge_Cabily", nil);
     NSString * casless=JJLocalizedString(@"Cashless_hassle", nil);
     
     
@@ -388,7 +388,7 @@
         UIToolbar* keyboardDoneButtonView = [[UIToolbar alloc] init];
         [keyboardDoneButtonView sizeToFit];
         UIBarButtonItem* doneButton = [[UIBarButtonItem alloc] initWithTitle:@"Done"
-                                                                       style:UIBarButtonItemStyleBordered target:self
+                                                                       style:UIBarButtonItemStylePlain target:self
                                                                       action:@selector(doneClicked:)];
         [keyboardDoneButtonView setItems:[NSArray arrayWithObjects:doneButton, nil]];
         Amount_Field.inputAccessoryView = keyboardDoneButtonView;

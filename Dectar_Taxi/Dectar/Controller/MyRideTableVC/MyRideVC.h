@@ -10,7 +10,7 @@
 #import "DropDownListView.h"
 #import "RootBaseVC.h"
 
-@interface MyRideVC : RootBaseVC<kDropDownListViewDelegate>
+@interface MyRideVC : RootBaseVC <kDropDownListViewDelegate>
 {
     DropDownListView * Dropobj;
 }
