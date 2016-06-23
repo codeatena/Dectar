@@ -1,0 +1,224 @@
+/* 
+  Localizable.strings
+  DectarDriver
+
+  Created by Casperon Technologies on 12/10/15.
+  Copyright © 2015 Casperon Technologies. All rights reserved.
+*/
+
+
+
+
+"REGISTER" = "REGISTER";
+"SIGN_IN" = "SIGN IN";
+"Login" = "Login";
+"Sign_In"= "Sign In";
+"Email"= "Email";
+"Password" = "Password";
+"Forgot_password?" = "Forgot password ?";
+
+"Go_Online" = "Go Online";
+"No_recent_trips"= "No recent trips";
+"Last_Trip" = "Last Trip";
+"NET_EARNINGS" = "NET EARNINGS";
+"Today_Earnings" = "Today Earnings";
+"Trips" = "Trips";
+"ESTIMATED_NET" = "ESTIMATED NET";
+"Today_Tips" = "Today Tips";
+"TIPS" = "TIPS";
+"You_have_a_pending_trip" = "You have a pending trip / transaction. Please tap to view. Without resolving this you will not get ride requests.";
+
+"Go_Offline" = "Go Offline";
+"Tap_to_accept_the_ride" = "Tap to accept the ride";
+"SLIDE_TO_ARRIVED" = "SLIDE TO ARRIVED";
+"SLIDE_TO_BEGIN_TRIP" = "SLIDE TO BEGIN TRIP";
+"Current_Ride" = "Current Ride";
+"Drop_Location" = "Drop Location";
+"Select_Drop_Location" = "Select Drop Location";
+"Drop_Time" = "Drop Time";
+"Select_Drop_Time" = "Select Drop Time";
+"Waiting_Time" = "Waiting Time";
+"Hours" = "Hours";
+"Minutes" = "Minutes";
+"Ride_Distance_km" = "Ride Distance (km's)";
+"Ride_Distance_mi" = "Ride Distance (mi)";
+"Enter_Distance" = "Enter Distance (eg, 2.5)";
+"End_Trip" = "End Trip";
+"Location_Search" = "Location Search";
+"Done" = "Done";
+"Forgot_Password" = "Forgot Password";
+"Forgot_your_password" = "Forgot your password?";
+"Enter_your_Email_below_to_receive" = "Enter your Email below to receive your password reset instructions";
+
+"Request_Password" = "Request Password";
+"Change_Password" = "Change Password";
+"Old_Password" = "Old Password";
+"New_Password" = "New Password";
+"ReType_Password" = "ReType Password";
+"Change_Password" = "Change Password";
+"Register" = "Register";
+"Please_Rate" = "Please_Rate";
+"Skip" = "Skip";
+"Review_Optional" = "Review (Optional)";
+"Rate_Rider" = "Rate Rider";
+"Receive_Cash" = "Receive Cash";
+"Please_collect_the_below" = "Please collect the below amount from the customer";
+"Received" = "Received";
+"Request" = "Request";
+"Enter_OTP" = "Enter OTP";
+"Please_enter_the_OTP" = "Please enter the OTP send to the rider";
+"OTP" = "OTP";
+"OK" = "OK";
+"Wait_Time:" = "Wait Time:";
+"Time_Taken" = "Time Taken:";
+"Ride_Distance" = "Ride Distance:";
+"Trip_Detail" = "Trip Detail";
+"Ride_Completed" = "Ride Completed";
+"Payment_Processing" = "Payment Processing";
+"ride_distance" = "ride distance";
+"time_taken" = "time taken";
+"wait_time" = "wait time";
+"Continue_Ride" = "Continue Ride";
+"Cancel_Ride" = "Cancel Ride";
+"Request_Payment" = "Request Payment";
+"Trip_List" = "Trip List";
+"All" = "All";
+"Onride" = "Onride";
+"Completed" = "Completed";
+"Cancel_Trip" = "Cancel Trip";
+"Why_are_you_cancelling" = "Why are you cancelling ?";
+"Dont_Cancel_Trip" = "Dont Cancel Trip";
+"Cancel_Trip" = "Cancel Trip";
+"Info" = "Info";
+"Account_Holder_Name" = "Account Holder Name";
+"Account_Holder_Address" = "Account Holder Address";
+"Account_Number" = "Account Number";
+"Bank_Name" = "Bank Name";
+"Branch_Name" = "Branch Name";
+"Branch_Address" = "Branch Address";
+"SWIFT_IFSC_code" = "SWIFT / IFSC code";
+"Routing_Number" = "Routing Number";
+"BANK_ACCOUNT" = "BANK ACCOUNT";
+"PAYMENT_STATEMENTS" = "PAYMENT STATEMENTS";
+"Payment" = "Payment :";
+"Amount" = "Amount :";
+"Received_Date" = "Received Date :";
+"Ride_Id" = "Ride Id :";
+"Home" = "Home";
+"Trip_Summary" = "Trip Summary";
+"Bank_Account" = "Bank Account";
+"Payment_Statements" = "Payment Statements";
+"Change_Password" = "Change Password";
+"Feedback" = "Feedback";
+"LOGOUT" = "LOGOUT";
+"Old_Password_cannot_be_empty" = "Old Password cannot be empty.";
+"New_Password_cannot_be_empty" = "New Password cannot be empty.";
+"ReType_password_mismatches" = "ReType password mismatches the new passsword";
+"Please_enter_valid_Email" = "Please enter valid Email";
+"Please_select_valid_Drop_time" = "Please select valid Drop time";
+"Ride_Finished" = "Ride Finished";
+"Please_Select_Drop_Location" = "Please Select Drop Location";
+"Please_Select_Drop_Time" = "Please Select Drop Time";
+"Please_Enter_Distance" = "Please Enter Distance";
+"Please_wait_until_transaction" = "Please wait until transaction is complete. Don't minimize or go back";
+"No_Records_Found" = "No Records Found.";
+"Bank_account_information" = "Bank account information updated successfully";
+"Account_Holder_Name_cannot_be_empty" = "Account Holder Name cannot be empty.";
+"Account_Holder_Address_cannot_be_empty" = "Account Holder Address cannot be empty.";
+"Account_Number_cannot_be_empty" = "Account Number cannot be empty.";
+"Bank_Name_cannot_be_empty" = "Bank Name cannot be empty.";
+"Branch_Name_cannot_be_empty" = "Branch Name cannot be empty.";
+"Branch_Address_cannot_be_empty" = "Branch Address cannot be empty.";
+"SWIFT_IFSC_cannot_be_empty" = "SWIFT / IFSC cannot be empty.";
+"is_mandatory" = "is mandatory";
+"Please_enter_valid_OTP" ="Please enter valid OTP";
+"Please_wait_until_transaction" = "Please wait until transaction is complete";
+"Payment_Received" = "Payment Received";
+"Paid_by_Wallet_money" = "Paid by Wallet money";
+"Paid_by_Coupon_offer" = "Paid by Coupon offer";
+"All" = "All";
+"Last_one_week" = "Last one week";
+"Last_two_weeks" = "Last two weeks";
+"Last_one_month" = "Last one month";
+"Last_one_year" = "Last one year";
+"Are_you_Sure" = "Are you Sure?";
+"No" = "No";
+"Yes" = "Yes";
+"Please_select_reason" = "Please select reason to cancel the ride";
+"SLIDE_TO_BEGIN_TRIP" = "SLIDE TO BEGIN TRIP";
+"Rider_Cancelled_the_ride" = "Rider Cancelled the ride";
+"Sorry" = "Sorry";
+
+"SLIDE_TO_END_TRIP" = "SLIDE TO END TRIP";
+"Start_Wait" = "Start Wait";
+"SLIDE_TO_END_TRIP" = "SLIDE TO END TRIP";
+"Ride_Finished" = "Ride Finished";
+"You_are_Here" = "You are Here";
+"Signal_is_too_weak" = "Signal is too weak.";
+"Unable_to_determine_location" = "Unable to determine location";
+"End_Wait" = "End Wait";
+"PickUp_Request" = "PickUp Request";
+"Ride_not_accepted" = "Ride not accepted";
+"App_Permission_Denied" = "App Permission Denied";
+"To_re-enable_please_go" = "To re-enable, please go to Settings and turn on Location Service for this app.";
+"You_are_too_late" = "You are too late to accept the request";
+
+"Sorry_cant_able" = "Sorry, can't able to find location. Please check the network or please go to Settings and turn on Location Service for this app.";
+"Oops" = "Oops !!";
+"Email_cannot_be_empty" = "Email cannot be empty";
+"Password_cannot_be_empty" = "Password cannot be empty";
+"No_network_connection" = "No network connection!! Please connect to network";
+"Email_Cancelled" = "Email Cancelled";
+"Email_Saved" = "Email Saved";
+"Email_Sent" = "Email Sent";
+"Email_Failed" = "Email Failed";
+"Email_Not_Sent" = "Email Not Sent";
+"Unable_to_connect_server" = "Unable to connect server... Please try again.";
+"Your_Session_has_been_Logged_out" = "Your Session has been Logged out...";
+"Kindly_Login_again" = "Kindly Login again";
+"Cant_able_to_get_location" = "Can't able to get location";
+"Select_Drop_Location" = "Select Drop Location";
+"Select_Drop_Location" = "Search Drop Location";
+"please_enter_drop_location_to_start_the_trip" = "Please enter drop location to start the trip";
+
+"Please_wait"="Please wait ...";
+"Your_payment_request_is"="Your payment request is send to the user. ";
+"This_process_may"="This process may take few seconds, so please be patient";
+"Check_Status"="Check Status";
+"Request_for_payment_is"="Request for payment is already send to user";
+"Processing_payment_Please wait"="Processing payment. Please wait.";
+"You_are_not_yet_verified"="You are not yet verified. until verified you will not get any ride request";
+"Change_Language"="Change Language";
+"Select_Lang"="Select a language";
+
+
+"Error"="Error";
+"Select_Driver_Category"="Select Driver Category";
+"Unable_to_select_location"="Unable to select location";
+"Unable_to_select_driver_category"="Unable to select driver category";
+"cant_find_route"="can't find route";
+"ways_count"="ways count";
+"RideId"="RideId";
+"Starting_Location"="Starting Location";
+"Signal_is_Consistently_Weak"="Signal is Consistently Weak";
+"Destination_Location"="Destination Location";
+"Total_Bill"="Total Bill:";
+"Total_Paid"="Total Paid:";
+"Ride"="Ride";
+"Fare_Summary"="Fare Summary";
+"Comment_Optional"="Comment (Optional)";
+"Save"="SAVE";
+"PAYMENT_DETAIL"="PAYMENT DETAIL";
+"Long_press_on_the_map"="Long press on the map to select the drop location";
+"Your_Destination"="Your Destination";
+"cant_find_address"="can't find address";
+"Select_Country"="Select Country";
+"Enter_Search"="Enter Search";
+"No_Locations_Found"="No Locations Found";
+"You_have_a_new_Trip"="You have a new Trip !!";
+"Accept"="Accept";
+"Deny"="Deny";
+"currentLoc_Img"="CarMarker";
+"Sort"="Sort";
+
+

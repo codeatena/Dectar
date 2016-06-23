@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  DectarDriver
+//
+//  Created by Casperon Technologies on 9/7/15.
+//  Copyright (c) 2015 Casperon Technologies. All rights reserved.
+//
+
+#ifndef DectarDriver_PrefixHeader_pch
+#define DectarDriver_PrefixHeader_pch
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+#import "LanguageHandler.h"
+#import "Theme.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif

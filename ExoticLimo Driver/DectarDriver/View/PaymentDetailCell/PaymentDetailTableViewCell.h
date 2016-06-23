@@ -1,0 +1,23 @@
+//
+//  PaymentDetailTableViewCell.h
+//  DectarDriver
+//
+//  Created by Casperon Technologies on 9/14/15.
+//  Copyright (c) 2015 Casperon Technologies. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "PaymentDetailTableViewCell.h"
+#import "Theme.h"
+#import "PaymentDetailRecords.h"
+
+@interface PaymentDetailTableViewCell : UITableViewCell
+
+@property (weak, nonatomic) IBOutlet UILabel *paymentHeaderLbl;
+@property (weak, nonatomic) IBOutlet UILabel *paymentDateLbl;
+@property (weak, nonatomic) IBOutlet UILabel *amountHeaderLbl;
+@property (weak, nonatomic) IBOutlet UILabel *dateHeaderLbl;
+@property (weak, nonatomic) IBOutlet UILabel *amountLbl;
+@property (weak, nonatomic) IBOutlet UILabel *RecDateLbl;
+-(void)setDatasToDetailList:(PaymentDetailRecords *)objRecs;
+@end
