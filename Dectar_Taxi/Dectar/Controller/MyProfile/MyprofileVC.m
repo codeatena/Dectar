@@ -76,6 +76,7 @@
     [self.view endEditing:YES];
     
 }
+
 -(void)applicationLanguageChangeNotification:(NSNotification*)notification{
 
     [_heading setText:JJLocalizedString(@"Profile", nil)];
@@ -90,6 +91,7 @@
     [_profileLangButton setTitle:JJLocalizedString(@"English", nil) forState:UIControlStateNormal];
     
 }
+
 - (IBAction)didClickMenuBtn:(id)sender {
     [self.view endEditing:YES];
     [self.frostedViewController.view endEditing:YES];
@@ -98,6 +100,7 @@
     //
     [self.frostedViewController presentMenuViewController];
 }
+
 -(BOOL)textFieldShouldBeginEditing:(UITextField *)textField
 {
     CountryPicker = [[UIPickerView alloc] initWithFrame:CGRectZero];
@@ -124,6 +127,7 @@
 
     return YES;
 }
+
 -(void)pickerDone
 {
 
@@ -135,7 +139,6 @@
     row = [CountryPicker selectedRowInComponent:0];
     country_fld.text= [Countrycode_Array objectAtIndex:row];
     savebtn.hidden=NO;
-
     
 }
 
@@ -143,6 +146,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 - (IBAction)logout:(id)sender {
     
     
@@ -153,8 +157,7 @@
     UrlHandler *web = [UrlHandler UrlsharedHandler];
     [Themes StartView:self.view];
     [web loggout:parameters success:^(NSMutableDictionary *responseDictionary)
-     
-     {
+    {
          [Themes StopView:self.view];
          
          if ([responseDictionary count]>0)
@@ -216,6 +219,7 @@
         // [self logout:self];
      }];
 }
+
 -(void)Tapping
 {
     [self.view endEditing:YES];
@@ -224,6 +228,7 @@
     savebtn.hidden=YES;
 
 }
+
 -(IBAction)Saving:(id)sender
 {
     savebtn.hidden=YES;
@@ -252,6 +257,7 @@
 
     }
 }
+
 -(BOOL)textFieldShouldReturn:(UITextField*)textField;
 {
     
@@ -309,8 +315,8 @@
     return YES;
 
 }
+
 - (void)SaveName {
-    
     
     NSDictionary *parameters=@{@"user_id":[Themes getUserID],
                                @"user_name":name_lbl.text};
@@ -359,8 +365,8 @@
 
      }];
 
-
 }
+
 - (void) SaveNumber
 {
     NSDictionary *parameters=@{@"user_id":[Themes getUserID],
@@ -424,9 +430,8 @@
 
 
      }];
-    
-
 }
+
 - (void)textFieldDidEndEditing:(UITextField *)textField
 {
 
@@ -465,7 +470,6 @@
 
 
 - (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component
-
 {
     
     return [CountryName_Array objectAtIndex:row];
@@ -474,7 +478,6 @@
 
 
 - (void) pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
-
 {
     
     country_fld.text = [Countrycode_Array objectAtIndex:row];

@@ -679,6 +679,7 @@
     }
     
 }
+
 #pragma mark Check Connection Availability
 -(void)checkConnectionAvailability
 {

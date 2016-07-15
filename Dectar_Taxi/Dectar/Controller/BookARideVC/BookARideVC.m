@@ -517,6 +517,7 @@
         }
     }
 }
+
 -(void)ApplyCoupoun:(NSNotification *)notification
 
 {
@@ -796,10 +797,6 @@
     
 }
 
-
-
-
-
 - (NSRange)fullRange
 {
     return (NSRange){0, [addressString length]};
@@ -889,6 +886,7 @@
                                   };
     return dictForuser;
 }
+
 /*-(void)latitude:(CGFloat )lat longitude:(CGFloat )lng
  {
  [[GMSGeocoder geocoder] reverseGeocodeCoordinate:CLLocationCoordinate2DMake(lat, lng) completionHandler:^(GMSReverseGeocodeResponse* response, NSError* error) {
@@ -936,9 +934,6 @@
                  
                  latitude1 = [[jsonResults valueForKey:@"lat"] doubleValue];
                  longitude1 = [[jsonResults valueForKey:@"lng"] doubleValue];
-                 
-                 
-                 
                  
                  NSArray *results = (NSArray *) responseDictionary[@"results"];
                  
@@ -995,7 +990,7 @@
          
         
      }
-                           failure:^(NSError *error)
+     failure:^(NSError *error)
      {
          
          [self Toast:@"Can't_fetch_Address"];
@@ -1259,7 +1254,6 @@
          if([responseDictionary count]==0 || responseDictionary==nil)
          {
              
-             
              [_rideNow_btn setTitleColor:[UIColor lightGrayColor] forState:UIControlStateNormal];
              [_rideNow_btn setUserInteractionEnabled:NO];
              
@@ -1492,7 +1486,7 @@
          }
      }
      
-            failure:^(NSError *error)
+    failure:^(NSError *error)
      {
          [Themes StopView:self.view];
          [_loadingView_View stopAnimation];

@@ -25,7 +25,7 @@
 
 @interface NewTrackVC ()<UIScrollViewDelegate>
 {
-    CLLocationManager * currentLocation;
+    //CLLocationManager * currentLocation;
     BOOL isSelected;
     Blurview* view;
     NSTimer *SerivceHitting;
@@ -54,7 +54,7 @@
     [GoogleMap setMyLocationEnabled:NO];
     
     Camera = [GMSCameraPosition cameraWithLatitude: User_latitude
-                                         longitude: User_longitude
+                                        longitude: User_longitude
                                               zoom:17];
     [GoogleMap animateToCameraPosition:Camera];
     GoogleMap = [GMSMapView mapWithFrame:CGRectMake(0, 0, MapBG.frame.size.width , MapBG.frame.size.height) camera:Camera];
@@ -347,7 +347,6 @@
     }
 }
 
-
 -(void)setDatasToView
 {
     DriverName.text=TrackObj.Driver_Name;
@@ -410,7 +409,6 @@
         Dropmarker.icon = markerIcon2;
         Dropmarker.map = self.GoogleMap;
         
-        
         //        PickUpmarker.position = CLLocationCoordinate2DMake(Driver_latitude, Driver_longitude);
         //        PickUpmarker.appearAnimation=kGMSMarkerAnimationPop;
         //        UIImage *markerIcon = [UIImage imageNamed:@"pin"];
@@ -427,7 +425,6 @@
         
     }
     else if ([TrackObj.Status isEqualToString:JJLocalizedString(@"Finished", nil)])
-        
     {
         [_Title_lbl setText:JJLocalizedString(@"Ride_Completed", nil)];
         [self changeCompleteStatus];

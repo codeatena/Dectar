@@ -13,15 +13,15 @@
 #import "LanguageHandler.h"
 
 @interface AddFavrVC ()
+
 @property (strong, nonatomic) IBOutlet UIButton *locaBtn;
 @property (strong, nonatomic) IBOutlet UITextField *address_fld;
-
-
 
 @end
 
 @implementation AddFavrVC
-@synthesize Title,Address,MapBG,Camera,GoogleMap,currentLocation,longitude,latitude,addressObj,locaBtn,locationKey,favourObj,isFromEdit,UserID;
+
+@synthesize Title,Address,MapBG,Camera,GoogleMap,longitude,latitude,addressObj,locaBtn,locationKey,favourObj,isFromEdit,UserID;
 
 
 - (void)viewDidLoad {
@@ -29,20 +29,6 @@
     
     
     UserID=[Themes getUserID];
-
-    /*currentLocation = [[CLLocationManager alloc] init];
-    currentLocation.distanceFilter = kCLDistanceFilterNone;
-    currentLocation.desiredAccuracy = kCLLocationAccuracyBest; // 100m
-    [currentLocation startUpdatingLocation];
-    
-    Camera = [GMSCameraPosition cameraWithLatitude: currentLocation.location.coordinate.latitude
-     longitude: currentLocation.location.coordinate.longitude
-     zoom:17];
-     
-     GoogleMap = [GMSMapView mapWithFrame:BGmapView.frame camera:Camera];
-    
-        latitude =currentLocation.location.coordinate.latitude;
-    longitude =currentLocation.location.coordinate.longitude;*/
    
     if (isFromEdit==YES)
     {

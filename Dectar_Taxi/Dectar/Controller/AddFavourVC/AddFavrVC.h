@@ -25,7 +25,6 @@
 
 @property (strong, nonatomic) GMSMapView * GoogleMap;
 @property (strong, nonatomic) GMSCameraPosition * Camera;
-@property (strong ,nonatomic)CLLocationManager * currentLocation;
 @property (strong,nonatomic) AddressRecord* addressObj;
 @property (strong,nonatomic) FavourRecord * favourObj;
 @property(assign,nonatomic)BOOL isFromEdit;

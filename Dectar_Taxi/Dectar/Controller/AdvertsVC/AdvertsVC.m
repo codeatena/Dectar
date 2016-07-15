@@ -25,8 +25,6 @@
     
     Ads_View.layer.cornerRadius = 10;
     Ads_View.layer.masksToBounds = YES;
-    
-    
 
     Ads_View.layer.shadowColor = [UIColor whiteColor].CGColor;
     Ads_View.layer.shadowOpacity = 0.5;
@@ -53,12 +51,11 @@
 
 }
 
-
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 -(void)setAds_ObjRec:(AdvertsRecord *)_Ads_ObjRec
 {
     Ads_ObjRec=_Ads_ObjRec;
@@ -67,6 +64,7 @@
     AdsImageView.image=[UIImage imageNamed:_Ads_ObjRec.Images];
     
 }
+
 - (IBAction)OK_Action:(id)sender {
     [self dismissViewControllerAnimated:NO completion:nil];
 }

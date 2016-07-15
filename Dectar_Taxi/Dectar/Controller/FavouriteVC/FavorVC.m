@@ -32,7 +32,6 @@
 @synthesize FavrList,EmptyFavor,CurrentFavour,objRecord,EditFavour,AddFavrView;
 
 
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -56,6 +55,7 @@
     [_heading_favour setText:JJLocalizedString(@"Favorites", nil)];
     
 }
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -67,6 +67,7 @@
     CurrentFavour.text=objRecord.addressStr;
     
 }
+
 - (IBAction)Edit:(id)sender {
     
     UIButton *button = (UIButton *)sender;
@@ -91,6 +92,7 @@
     }
 
 }
+
 -(void)viewSlideInFromBottomToTop:(UIView *)views
 {
     CATransition *transition = nil;
@@ -113,6 +115,7 @@
     transition.delegate = self;
     [views.layer addAnimation:transition forKey:nil];
 }
+
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
@@ -121,8 +124,8 @@
 
     [self retrieveFavlist];
     
-
 }
+
 -(void)retrieveFavlist
 {
     NSDictionary * parameters=@{@"user_id":UserID};
@@ -178,6 +181,7 @@
      }];
 
 }
+
 /*
 #pragma mark - Navigation
 
@@ -187,11 +191,13 @@
     // Pass the selected object to the new view controller.
 }
 */
+
 - (IBAction)BackTo:(id)sender {
 
     [self.navigationController popViewControllerAnimated:YES];
 
 }
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     
     return 1;

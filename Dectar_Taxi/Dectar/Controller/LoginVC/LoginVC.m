@@ -39,8 +39,6 @@
 
 @property (nonatomic ,assign) IBOutlet JTImageButton *selectcarBtn;
 
-//@property (strong ,nonatomic)CLLocationManager * currentLocation;
-
 @end
 
 @implementation LoginVC
@@ -50,13 +48,6 @@
     
     Email_Field.delegate=self;
     Password_field.delegate=self;
-    
-   /** currentLocation = [[CLLocationManager alloc] init];
-    //    currentLocation.distanceFilter = kCLDistanceFilterNone;
-    //    currentLocation.desiredAccuracy = kCLLocationAccuracyBest; // 100m
-    [currentLocation startUpdatingLocation];
-    [currentLocation requestWhenInUseAuthorization];
-    [currentLocation requestAlwaysAuthorization];*/
     
     UITapGestureRecognizer * estimate=[[UITapGestureRecognizer alloc] initWithTarget: self action:@selector(Estimate)];
     estimate.numberOfTapsRequired = 1;
@@ -245,8 +236,8 @@
             }];
     }
     
-    
 }
+
 -(BOOL)validateTextfield
 {
     if(Email_Field.text.length==0){
@@ -261,26 +252,29 @@
         return NO;
     }
     
-    
     return YES;
 }
+
 -(void)showAlert:(NSString *)errorStr{
     NSString *titleStr = JJLocalizedString(@"Oops", nil);
     UIAlertView*Alert=[[UIAlertView alloc]initWithTitle:[NSString stringWithFormat:@"%@\xF0\x9F\x9A\xAB",titleStr] message:errorStr delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
     [Alert show];
 }
+
 - (BOOL)validateEmail:(NSString *)emailStr
 {
     NSString *emailRegex = @"[A-Z0-9a-z._%+]+@[A-Za-z0-9.]+\\.[A-Za-z]{2,4}";
     NSPredicate *emailTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", emailRegex];
     return [emailTest evaluateWithObject:emailStr];
 }
+
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
     if(range.location==0&&[string isEqualToString:@" "]){
         return NO;
     }
     return YES;
 }
+
 - (IBAction)Forget_password:(id)sender {
     
     UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle: nil];

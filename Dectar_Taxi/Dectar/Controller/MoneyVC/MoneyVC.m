@@ -189,6 +189,7 @@
     TranscationVC * addfavour = [self.storyboard instantiateViewControllerWithIdentifier:@"TranscationVCID"];
     [self.navigationController pushViewController:addfavour animated:YES];
 }
+
 - (IBAction)GointToPaypal:(id)sender {
     
     /*PaypalVC = [self.storyboard instantiateViewControllerWithIdentifier:@"paypalVCID"];

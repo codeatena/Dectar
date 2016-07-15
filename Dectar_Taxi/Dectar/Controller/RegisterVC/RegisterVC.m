@@ -63,14 +63,6 @@
 
     // Do any additional setup after loading the view.
     
-    /*currentLocation = [[CLLocationManager alloc] init];
-    //    currentLocation.distanceFilter = kCLDistanceFilterNone;
-    //    currentLocation.desiredAccuracy = kCLLocationAccuracyBest; // 100m
-    [currentLocation startUpdatingLocation];
-    [currentLocation requestWhenInUseAuthorization];
-    [currentLocation requestAlwaysAuthorization];*/
-    
-    
     //Facebook.layer.cornerRadius = 5;
     Facebook.layer.shadowColor = [UIColor blackColor].CGColor;
     Facebook.layer.shadowOpacity = 0.5;
@@ -91,13 +83,12 @@
     nameField.text=NameFB;
     email_Field.text=EmailFB;
     
-    
     Country_field.text=[Themes GetCountryCode];
-
     
     [Themes statusbarColor:self.view];
     
 }
+
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
@@ -201,10 +192,9 @@
         [textField resignFirstResponder];
     }
     
-
-    
     return YES;
 }
+
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
     if(range.location==0&&[string isEqualToString:@" "]){
         return NO;
@@ -245,19 +235,23 @@
     return YES;
 
 }
+
 - (IBAction)CreatAccount:(id)sender {
 
     [self Register];
    
 }
+
 -(void)doSingleTap
 {
     [self.view endEditing:YES];
 }
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 -(BOOL)textFieldShouldBeginEditing:(UITextField *)textField
 {
     CountryPicker = [[UIPickerView alloc] initWithFrame:CGRectZero];
@@ -283,7 +277,8 @@
     
     return YES;
 }
--(void)pickerDone
+
+ -(void)pickerDone
 {
     
     [Country_field resignFirstResponder];
@@ -294,11 +289,10 @@
     row = [CountryPicker selectedRowInComponent:0];
     Country_field.text= [Countrycode_Array objectAtIndex:row];
     
-    
 }
+
 -(void)Register
 {
-    
     
     if ([self validateTextfield]) {
         NSDictionary * parameters=@{@"user_name":nameField.text,
@@ -382,6 +376,7 @@
          }];
     }
 }
+
 -(void)textFieldDidBeginEditing:(UITextField *)textField
 {
     if (mobile_field) {
@@ -394,6 +389,7 @@
         mobile_field.inputAccessoryView = keyboardDoneButtonView;
     }
 }
+
 - (void)doneClicked:(id)sender
 {
     [mobile_field resignFirstResponder];

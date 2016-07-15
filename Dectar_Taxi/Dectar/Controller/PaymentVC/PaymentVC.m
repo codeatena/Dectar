@@ -44,20 +44,24 @@
        [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
+
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
 }
+
 -(void)applicationLanguageChangeNotification:(NSNotification *)notification
 {
     [_heading setText:JJLocalizedString(@"paymetn_pay", nil)];
     [_submit_btn setTitle:JJLocalizedString(@"Submit", nil) forState:UIControlStateNormal];
     [_Cancle_btn setTitle:JJLocalizedString(@"Cancel", nil) forState:UIControlStateNormal];
 }
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 -(void)payMode
 {
     NSDictionary * parameters=@{@"user_id":[Themes getUserID],
@@ -122,12 +126,14 @@
          [Themes StopView:self.view];
      }];
 }
+
 -(void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
     [payment_timer invalidate];
 
 }
+
 -(void)invoke_payment
 {
     

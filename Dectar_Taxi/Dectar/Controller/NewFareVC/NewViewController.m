@@ -440,8 +440,6 @@ const static CGFloat kCustomIOS7MotionEffectExtent = 10.0;
                   }*/
              }
              
-             
-             
          }
                 failure:^(NSError *error)
          {
@@ -457,6 +455,7 @@ const static CGFloat kCustomIOS7MotionEffectExtent = 10.0;
     }
 
 }
+
 - (IBAction)check_Action:(id)sender {
     
     checkBoxSelected = !checkBoxSelected;

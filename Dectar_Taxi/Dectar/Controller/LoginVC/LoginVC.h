@@ -10,8 +10,6 @@
 #import "LoginRecord.h"
 #import "RootBaseVC.h"
 
-
-
 @interface LoginVC : RootBaseVC
 @property(strong,nonatomic)LoginRecord * loginrecord;
 
